@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "fe7731635b09330889b1a97af4d7525b"
-application_url = "https://frederick-member-life-violence.trycloudflare.com"
+application_url = "https://hearing-old-ni-electric.trycloudflare.com"
 embedded = true
 name = "proxy-app"
 handle = "proxy-app-60"
@@ -23,9 +23,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://frederick-member-life-violence.trycloudflare.com/auth/callback",
-  "https://frederick-member-life-violence.trycloudflare.com/auth/shopify/callback",
-  "https://frederick-member-life-violence.trycloudflare.com/api/auth/callback"
+  "https://hearing-old-ni-electric.trycloudflare.com/auth/callback",
+  "https://hearing-old-ni-electric.trycloudflare.com/auth/shopify/callback",
+  "https://hearing-old-ni-electric.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
