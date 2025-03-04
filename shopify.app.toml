@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "fe7731635b09330889b1a97af4d7525b"
-application_url = "https://hearing-old-ni-electric.trycloudflare.com"
+application_url = "https://mali-per-stuffed-impressed.trycloudflare.com"
 embedded = true
 name = "proxy-app"
 handle = "proxy-app-60"
@@ -19,13 +19,13 @@ api_version = "2025-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products, read_orders,write_orders"
 
 [auth]
 redirect_urls = [
-  "https://hearing-old-ni-electric.trycloudflare.com/auth/callback",
-  "https://hearing-old-ni-electric.trycloudflare.com/auth/shopify/callback",
-  "https://hearing-old-ni-electric.trycloudflare.com/api/auth/callback"
+  "https://mali-per-stuffed-impressed.trycloudflare.com/auth/callback",
+  "https://mali-per-stuffed-impressed.trycloudflare.com/auth/shopify/callback",
+  "https://mali-per-stuffed-impressed.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
@@ -34,3 +34,4 @@ embedded = false
 [build]
 dev_store_url = "truecable-function.myshopify.com"
 automatically_update_urls_on_dev = true
+include_config_on_deploy = true
